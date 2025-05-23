@@ -7,7 +7,7 @@ authors:
 - family-names: "Van Iwaarden"
   given-names: "Adam"
 title: "sgpFlowData: Exemplar Data Sets for sgpFlow Analyses"
-version: 0.0-0.1
+version: 0.0-0.2
 doi: 10.5281/zenodo.3634024
 date-released: 2025-5-23
 url: "https://centerforassessment.github.io/sgpFlowData"

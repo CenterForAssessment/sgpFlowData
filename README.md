@@ -3,7 +3,7 @@ sgpFlowData
 
 [![DOI](https://zenodo.org/badge/3107644.svg)](https://doi.org/10.5281/zenodo.593152)
 [![R-CMD-check](https://github.com/CenterForAssessment/sgpFlowData/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/sgpFlowData/actions)
-[![Development Version](https://img.shields.io/badge/devel-28.9--4.0-brightgreen.svg)](https://github.com/CenterForAssessment/sgpFlowData)
+[![Development Version](https://img.shields.io/badge/devel-0.0--0.2-brightgreen.svg)](https://github.com/CenterForAssessment/sgpFlowData)
 [![License](https://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/sgpFlowData/blob/master/LICENSE.md)
 
 
@@ -39,26 +39,22 @@ The package is automatically installed when one installs the [sgpFlow](https://g
 # Usage
 
 ```R
-> head(sgpData)
-       ID GRADE_2016 GRADE_2017 GRADE_2018 GRADE_2019 GRADE_2020 SS_2016 SS_2017 SS_2018 SS_2019 SS_2020
-1 1000185         NA         NA         NA         NA          7      NA      NA      NA      NA     520
-2 1000486          3          4          5          6          7     524     548     607     592     656
-3 1000710          8         NA         NA         NA         NA     713      NA      NA      NA      NA
-4 1000715         NA         NA          4          5          6      NA      NA     469     492     551
-5 1000803         NA          5         NA         NA         NA      NA     558      NA      NA      NA
-6 1000957          5          6          7          8         NA     651     660     666     663      NA
+head(sgpFlowData_LONG)
+Key: <VALID_CASE, CONTENT_AREA, YEAR, GRADE, ID>
+   VALID_CASE CONTENT_AREA      YEAR  GRADE      ID SCALE_SCORE    ACHIEVEMENT_LEVEL
+       <char>       <char>    <char> <char>  <char>       <num>               <char>
+1: VALID_CASE  MATHEMATICS 2020_2021     10 1000373         594 Partially Proficient
+2: VALID_CASE  MATHEMATICS 2020_2021     10 1004463         577 Partially Proficient
+3: VALID_CASE  MATHEMATICS 2020_2021     10 1009758         595 Partially Proficient
+4: VALID_CASE  MATHEMATICS 2020_2021     10 1010517         593 Partially Proficient
+5: VALID_CASE  MATHEMATICS 2020_2021     10 1012003         700             Advanced
+6: VALID_CASE  MATHEMATICS 2020_2021     10 1012965         688           Proficient
 ```
 
 ```R
-> names(sgpData_LONG)
- [1] "VALID_CASE"                         "CONTENT_AREA"                       "YEAR"
- [4] "ID"                                 "LAST_NAME"                          "FIRST_NAME"
- [7] "GRADE"                              "SCALE_SCORE"                        "ACHIEVEMENT_LEVEL"
-[10] "GENDER"                             "ETHNICITY"                          "FREE_REDUCED_LUNCH_STATUS"
-[13] "ELL_STATUS"                         "IEP_STATUS"                         "GIFTED_AND_TALENTED_PROGRAM_STATUS"
-[16] "SCHOOL_NUMBER"                      "SCHOOL_NAME"                        "EMH_LEVEL"
-[19] "DISTRICT_NUMBER"                    "DISTRICT_NAME"                      "SCHOOL_ENROLLMENT_STATUS"
-[22] "DISTRICT_ENROLLMENT_STATUS"         "STATE_ENROLLMENT_STATUS"
+names(sgpFlowData_LONG)
+[1] "VALID_CASE"        "CONTENT_AREA"      "YEAR"              "GRADE"             "ID"               
+[6] "SCALE_SCORE"       "ACHIEVEMENT_LEVEL"
 ```
 
 
