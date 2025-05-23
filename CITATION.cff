@@ -1,0 +1,13 @@
+cff-version: 1.1.0
+message: "If you use the sgpFlowData Package, please cite it using these metadata."
+authors:
+- family-names: "Betebenner"
+  given-names: "Damian"
+  orcid: "https://orcid.org/0000-0003-0476-5599"
+- family-names: "Van Iwaarden"
+  given-names: "Adam"
+title: "sgpFlowData: Exemplar Data Sets for sgpFlow Analyses"
+version: 0.0-0.1
+doi: 10.5281/zenodo.3634024
+date-released: 2025-5-23
+url: "https://centerforassessment.github.io/sgpFlowData"
