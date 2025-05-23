@@ -1,13 +1,13 @@
 Package: sgpFlowData
 Type: Package
 Title: Exemplar Data Sets for sgpFlow Analyses
-Version: 0.0-0.1
+Version: 0.0-0.2
 Date: 2025-5-23
 Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebenner@nciea.org", role=c("aut", "cre")),
             person(given=c("Adam", "R."), family="Van Iwaarden", email="avaniwaarden@nciea.com", role="aut"))
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
 Depends: R (>= 4.4)
-Suggests: SGP (>= 2.2-0.0)
+Suggests: sgpFlow
 Imports: crayon, curl, data.table (>= 1.14.0), pkgsearch, toOrdinal
 Description: Data sets utilized by the 'sgpFlow' package for testing as well as for exemplars for to conduct sgpFlow analyses.
 URL: https://CenterForAssessment.github.io/sgpFlowData/, https://github.com/CenterForAssessment/sgpFlowData/,

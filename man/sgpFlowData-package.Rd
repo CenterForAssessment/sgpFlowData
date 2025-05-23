@@ -12,7 +12,7 @@ The `sgpFlowData` package provides exemplar data sets for sgpFlow testing and an
 \tabular{ll}{
   Package: \tab sgpFlowData \cr
   Type: \tab Package \cr
-  Version: \tab 0.0-0.1 \cr
+  Version: \tab 0.0-0.2 \cr
   Date: \tab 2025-5-23 \cr
   License: \tab MIT \cr
   LazyLoad: \tab yes \cr
